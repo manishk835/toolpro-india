@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { --max-w: 56rem }
+
+body { font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue'; }
+
+.input { @apply w-full rounded border px-3 py-2 bg-white }
+.btn { @apply bg-slate-900 text-white px-4 py-2 rounded }
+.card { @apply p-4 bg-white rounded border }
+
+
+/* .pro-card {
+    @apply p-8 rounded-2xl bg-white border border-slate-200 shadow-xl
+           hover:shadow-2xl transform hover:-translate-y-1 transition-all
+           backdrop-blur-md bg-opacity-90 cursor-pointer;
+  }
+   */
+   .pro-card {
+    transition: all 0.3s ease;
+  }
+  
